@@ -8,7 +8,7 @@ ml5 Example
 Webcam Image Classification using a pre-trained customized model and p5.js
 This example uses p5 preload function to create the classifier
 === */
-var myPlayer = videojs("example_video_1");
+var myPlayer = videojs("my-video");
 // Global variable to store the classifier
 let classifier;
 
