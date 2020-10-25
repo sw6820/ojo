@@ -53,7 +53,9 @@ function draw() {
       //change angry src -> play -> else -> change video -> check if play ->
     myPlayer.src("https://github.com/sw6820/ojo/blob/master/video/" + status + "_cat.mp4");
     myPlayer.play();
+    console.log('play');
   }
+  console.log('not play');
 }
 
 
