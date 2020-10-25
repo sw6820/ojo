@@ -51,8 +51,8 @@ function gotResult(error, results) {
   // console.log(results[0]);
   //label = results[0].label;
 
-  if (nf(results[0].confidence, 0, 2) > 0.8) {
+  // if (nf(results[0].confidence, 0, 2) > 0.8)
     // label = results[0].label;
-    label = results[0].label + ' ' + nf(results[0].confidence, 0, 2);
-  }
+  label = results[0].label + ' ' + nf(results[0].confidence, 0, 2);
+  // }
 }
