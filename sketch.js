@@ -16,7 +16,7 @@ let classifier;
 let label = "listening";
 
 // Teachable Machine model URL:
-let soundModelURL = 'model.json';
+let soundModelURL = 'https://sw6820.github.io/ojo/model.json';
 
 
 function preload() {
