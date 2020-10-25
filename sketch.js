@@ -43,25 +43,21 @@ function draw() {
   // $<
   // change src
   // play video? > angry > play
-  while (true){
-    if (!myPlayer.ended()){
-      if (label.includes('angry')){
-        myPlayer.src("https://github.com/sw6820/ojo/blob/master/video/angry_cat.mp4");
-        //change angry src -> play -> else -> change video -> check if play ->
 
-      } else if(label.includes('happy')){
-        myPlayer.src("https://github.com/sw6820/ojo/blob/master/video/happy_cat.mp4");
-      } else if(label.includes('sick')){
-        myPlayer.src("https://github.com/sw6820/ojo/blob/master/video/sick_cat.mp4");
-      } else if(label.includes('trill')){
-        myPlayer.src("https://github.com/sw6820/ojo/blob/master/video/trill_cat.mp4");
-      } else {
-        continue;
-      }
-    } else {
-      continue;
+  if (!myPlayer.ended()){
+    if (label.includes('angry')){
+      myPlayer.src("https://github.com/sw6820/ojo/blob/master/video/angry_cat.mp4");
+
+      //change angry src -> play -> else -> change video -> check if play ->
+
+    } else if(label.includes('happy')){
+      myPlayer.src("https://github.com/sw6820/ojo/blob/master/video/happy_cat.mp4");
+    } else if(label.includes('sick')){
+      myPlayer.src("https://github.com/sw6820/ojo/blob/master/video/sick_cat.mp4");
+    } else if(label.includes('trill')){
+      myPlayer.src("https://github.com/sw6820/ojo/blob/master/video/trill_cat.mp4");
     }
-  }
+    myPlayer.play();
 }
 
 
