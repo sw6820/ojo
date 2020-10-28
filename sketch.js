@@ -37,6 +37,7 @@ function draw() {
   textSize(32);
   textAlign(CENTER, CENTER);
   text(label, width / 2, height / 2);
+
   // $<
   // change src
   // play video? > angry > play
@@ -54,7 +55,7 @@ function draw() {
 
 
 
-  }
+  // }
   console.log('not play');
 }
 
