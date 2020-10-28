@@ -41,16 +41,19 @@ function draw() {
   // change src
   // play video? > angry > play
 
-  if (!myPlayer.ended()){
-    var status = "noise";
-    if (label.includes('angry')) {status = "angry";}
-    else if(label.includes('happy')) {status = "happy";}
-    else if(label.includes('sick')) {status = "sick";}
-    else if(label.includes('trill')) {status = "trill";}
-      //change angry src -> play -> else -> change video -> check if play ->
-    myPlayer.src("https://github.com/sw6820/ojo/blob/master/video/" + status + "_cat.mp4");
-    myPlayer.play();
-    console.log('play');
+  // if (!myPlayer.ended()){
+  //   var status = "noise";
+  //   if (label.includes('angry')) {status = "angry";}
+  //   else if(label.includes('happy')) {status = "happy";}
+  //   else if(label.includes('sick')) {status = "sick";}
+  //   else if(label.includes('trill')) {status = "trill";}
+  //     //change angry src -> play -> else -> change video -> check if play ->
+  //   myPlayer.src("https://github.com/sw6820/ojo/blob/master/video/" + status + "_cat.mp4");
+  //   myPlayer.play();
+  //   console.log('play');
+
+
+
   }
   console.log('not play');
 }
