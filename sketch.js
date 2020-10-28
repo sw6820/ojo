@@ -12,14 +12,11 @@ var myPlayer = videojs("my-video");
 // Global variable to store the classifier
 let classifier;
 
-
-
 // Label (start by showing listening)
 let label = "listening";
 
 // Teachable Machine model URL:
 let soundModelURL = 'https://sw6820.github.io/ojo/model.json';
-
 
 function preload() {
   // Load the model
