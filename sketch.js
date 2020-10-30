@@ -51,7 +51,7 @@ function draw() {
   textSize(32);
   textAlign(CENTER, CENTER);
   text(label, width / 2, height / 2);
-  myPlayer.src("https://github.com/sw6820/ojo/blob/master/video/" + "angry" + "_cat.mp4");
+  myPlayer.src("https://github.com/sw6820/ojo/blob/master/video/" + "happy" + "_cat.mp4");
   myPlayer.play();
   console.log('play');
   // $<
@@ -69,13 +69,13 @@ function draw() {
   //   myPlayer.src("https://github.com/sw6820/ojo/blob/master/video/" + status + "_cat.mp4");
   //   myPlayer.play();
   //   console.log('play');
-
-
-
-  }
-  console.log('not play');
+  // if (!myPlayer.ended){
+  //   var stat = "happy";
+  //   myPlayer.src("https://github.com/sw6820/ojo/blob/master/video/" + stat + "_cat.mp4");
+  //   myPlayer.play();
+  // }
+  // else {console.log('not play');}
 }
-
 
 // The model recognizing a sound will trigger this event
 function gotResult(error, results) {
