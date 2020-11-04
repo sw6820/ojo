@@ -1,57 +1,106 @@
+<!DOCTYPE html>
+<html style="font-size: 16px;">
 <html><head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <meta name="keywords" content="catscan speak, Food Preparation">
+  <meta name="description" content="">
+  <meta name="page_type" content="np-template-header-footer-from-plugin">
   <title>A cat can speak in Korean</title>
-<!--  <script src="http://localhost:63342/untitled/p5.min.js"></script>-->
-<!--  <script src="p5.dom.min.js"></script>-->
-<!--  <script src="ml5.min.js" type="text/javascript"></script>-->
-<!--  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>-->
-  <!-- p5 -->
-
-<!--  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>-->
-<!--  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>-->
-<!--  <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js" type="text/javascript"></script>-->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
   <!-- ml5 -->
   <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
   <link href="https://vjs.zencdn.net/7.8.4/video-js.css" rel="stylesheet" />
-
   <!-- If you'd like to support IE8 (for Video.js versions prior to v7) -->
   <script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
-
+  <link rel="stylesheet" href="nicepage.css" media="screen">
+  <link rel="stylesheet" href="Page-1.css" media="screen">
+  <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
+  <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
+  <meta name="generator" content="Nicepage 2.29.3, nicepage.com">
+  <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
+  <script type="application/ld+json">{
+    "@context": "http://schema.org",
+    "@type": "Organization",
+    "name": "",
+    "url": "index.html"
+  }</script>
+  <meta property="og:title" content="Page 1">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#478ac9">
+  <link rel="canonical" href="index.html">
+  <meta property="og:url" content="index.html">
 </head>
+<body data-home-page="Page-1.html" data-home-page-title="Page 1" class="u-body"><header class="u-align-left u-clearfix u-header u-header" id="sec-41d7"><div class="u-clearfix u-sheet u-sheet-1"></div></header>
+<section class="u-align-left u-clearfix u-image u-section-1" src="" id="carousel_2c9d" data-image-width="1280" data-image-height="853">
+  <div class="u-clearfix u-sheet u-sheet-1">
+    <div class="u-video u-video-1">
+      <div class="embed-responsive">
+        <video class="embed-responsive-item" muted="" autoplay="autoplay" playsinline="">
+          <source src="http://sw6820.github.io/ojo/video/angry_cat.mp4" type="video/mp4">
+          <p>Your browser does not support HTML5 video.</p>
+        </video>
+        <video
+                id="my-video"
+                class="video-js"
+                controls
+                preload="auto"
+                width="640"
+                height="264"
+                data-setup="{}"
+        >
+        </video>
+        <script src="https://vjs.zencdn.net/7.8.4/video.js"></script>
+        <script src="sketch.js"></script>
+      </div>
+    </div>
+    <p class="u-align-left u-large-text u-text u-text-body-alt-color u-text-variant u-text-1">for those who&nbsp;love cats</p>
+    <h1 class="u-text u-text-palette-4-light-2 u-title u-text-2">cats<br>can speak
+    </h1>
+  </div>
+</section>
+<section class="u-clearfix u-expand-resize u-image u-shading u-video-cover u-section-2" id="carousel_71d2" data-image-width="1280" data-image-height="853">
+  <div class="u-clearfix u-sheet u-sheet-1">
+    <div class="u-clearfix u-expanded-width u-layout-wrap u-layout-wrap-1">
+      <div class="u-layout">
+        <div class="u-layout-row">
+          <div class="u-align-center-sm u-align-center-xs u-align-left-lg u-align-left-md u-align-left-xl u-container-style u-layout-cell u-left-cell u-size-30 u-layout-cell-1">
+            <div class="u-container-layout u-container-layout-1"></div>
+          </div>
+          <div class="u-align-left u-container-style u-layout-cell u-right-cell u-size-30 u-layout-cell-2">
+            <div class="u-container-layout u-container-layout-2"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-<body>
-  <h1>We can listen to what cats say</h1>
-  <p>This is a demonstration of sound classification using a model trained with Google's Teachable Machine project. If
-    cats make sounds, this model will classify the sound as "Angry." (Until a clap is detected the canvas displays "listening.")
-  </p>
-  <video
-    id="my-video"
-    class="video-js"
-    controls
-    preload="auto"
-    width="640"
-    height="264"
-    data-setup="{}"
-  >
-    <!--  poster="MY_VIDEO_POSTER.jpg"-->
 
-<!--    <source src="video/angry_cat.mp4" type="video/mp4" />-->
-<!--    <source src="video/happy_cat.mp4" type="video/mp4" />-->
-<!--    <source src="video/sick_cat.mp4" type="video/mp4" />-->
-<!--    <source src="video/trill_cat.mp4" type="video/mp4" />-->
-
-  <!--  <source src="MY_VIDEO.webm" type="video/webm" />-->
-  <!--  <p class="vjs-no-js">-->
-  <!--    To view this video please enable JavaScript, and consider upgrading to a-->
-  <!--    web browser that-->
-  <!--    <a href="https://videojs.com/html5-video-support/" target="_blank"-->
-  <!--    >supports HTML5 video</a-->
-  <!--    >-->
-<!--  </p>-->
-  </video>
-  <script src="https://vjs.zencdn.net/7.8.4/video.js"></script>
-  <script src="sketch.js"></script>
-</body></html>
+<footer class="u-align-center u-clearfix u-footer u-grey-80 u-footer" id="sec-cee1"><div class="u-clearfix u-sheet u-sheet-1">
+  <p class="u-small-text u-text u-text-variant u-text-1">
+    <a href="https://velog.io/@s6820w" class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-palette-1-base u-btn-1" target="_blank">Blog</a>
+    <br>
+    <a href="https://github.com/sw6820" class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-palette-1-base u-btn-2">Github</a>
+  </p><span class="u-border-2 u-border-palette-1-base u-icon u-icon-circle u-spacing-4 u-text-palette-1-base u-icon-1"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 55 55" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-ff02"></use></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xml:space="preserve" class="u-svg-content" viewBox="0 0 55 55" x="0px" y="0px" id="svg-ff02" style="enable-background:new 0 0 55 55;"><path d="M55,27.5C55,12.337,42.663,0,27.5,0S0,12.337,0,27.5c0,8.009,3.444,15.228,8.926,20.258l-0.026,0.023l0.892,0.752
+	c0.058,0.049,0.121,0.089,0.179,0.137c0.474,0.393,0.965,0.766,1.465,1.127c0.162,0.117,0.324,0.234,0.489,0.348
+	c0.534,0.368,1.082,0.717,1.642,1.048c0.122,0.072,0.245,0.142,0.368,0.212c0.613,0.349,1.239,0.678,1.88,0.98
+	c0.047,0.022,0.095,0.042,0.142,0.064c2.089,0.971,4.319,1.684,6.651,2.105c0.061,0.011,0.122,0.022,0.184,0.033
+	c0.724,0.125,1.456,0.225,2.197,0.292c0.09,0.008,0.18,0.013,0.271,0.021C25.998,54.961,26.744,55,27.5,55
+	c0.749,0,1.488-0.039,2.222-0.098c0.093-0.008,0.186-0.013,0.279-0.021c0.735-0.067,1.461-0.164,2.178-0.287
+	c0.062-0.011,0.125-0.022,0.187-0.034c2.297-0.412,4.495-1.109,6.557-2.055c0.076-0.035,0.153-0.068,0.229-0.104
+	c0.617-0.29,1.22-0.603,1.811-0.936c0.147-0.083,0.293-0.167,0.439-0.253c0.538-0.317,1.067-0.648,1.581-1
+	c0.185-0.126,0.366-0.259,0.549-0.391c0.439-0.316,0.87-0.642,1.289-0.983c0.093-0.075,0.193-0.14,0.284-0.217l0.915-0.764
+	l-0.027-0.023C51.523,42.802,55,35.55,55,27.5z M2,27.5C2,13.439,13.439,2,27.5,2S53,13.439,53,27.5
+	c0,7.577-3.325,14.389-8.589,19.063c-0.294-0.203-0.59-0.385-0.893-0.537l-8.467-4.233c-0.76-0.38-1.232-1.144-1.232-1.993v-2.957
+	c0.196-0.242,0.403-0.516,0.617-0.817c1.096-1.548,1.975-3.27,2.616-5.123c1.267-0.602,2.085-1.864,2.085-3.289v-3.545
+	c0-0.867-0.318-1.708-0.887-2.369v-4.667c0.052-0.52,0.236-3.448-1.883-5.864C34.524,9.065,31.541,8,27.5,8
+	s-7.024,1.065-8.867,3.168c-2.119,2.416-1.935,5.346-1.883,5.864v4.667c-0.568,0.661-0.887,1.502-0.887,2.369v3.545
+	c0,1.101,0.494,2.128,1.34,2.821c0.81,3.173,2.477,5.575,3.093,6.389v2.894c0,0.816-0.445,1.566-1.162,1.958l-7.907,4.313
+	c-0.252,0.137-0.502,0.297-0.752,0.476C5.276,41.792,2,35.022,2,27.5z"></path></svg></span><span class="u-border-2 u-border-palette-1-base u-icon u-icon-circle u-spacing-5 u-text-palette-1-base u-icon-2"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 24 24" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-3fab"></use></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xml:space="preserve" class="u-svg-content" viewBox="0 0 24 24" id="svg-3fab"><path d="m12 .5c-6.63 0-12 5.28-12 11.792 0 5.211 3.438 9.63 8.205 11.188.6.111.82-.254.82-.567 0-.28-.01-1.022-.015-2.005-3.338.711-4.042-1.582-4.042-1.582-.546-1.361-1.335-1.725-1.335-1.725-1.087-.731.084-.716.084-.716 1.205.082 1.838 1.215 1.838 1.215 1.07 1.803 2.809 1.282 3.495.981.108-.763.417-1.282.76-1.577-2.665-.295-5.466-1.309-5.466-5.827 0-1.287.465-2.339 1.235-3.164-.135-.298-.54-1.497.105-3.121 0 0 1.005-.316 3.3 1.209.96-.262 1.98-.392 3-.398 1.02.006 2.04.136 3 .398 2.28-1.525 3.285-1.209 3.285-1.209.645 1.624.24 2.823.12 3.121.765.825 1.23 1.877 1.23 3.164 0 4.53-2.805 5.527-5.475 5.817.42.354.81 1.077.81 2.182 0 1.578-.015 2.846-.015 3.229 0 .309.21.678.825.56 4.801-1.548 8.236-5.97 8.236-11.173 0-6.512-5.373-11.792-12-11.792z"></path></svg></span>
+</div></footer>
+</body>
+</html>

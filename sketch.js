@@ -180,7 +180,7 @@ function gotResult(error, results) {
     });
     if (!is_playing) {
       var status = results[0].label
-      if (status == "Noise") return;
+      if (status == "noise") return;
       myPlayer.src({src: "http://sw6820.github.io/ojo/video/" + status + "_cat.mp4", type: "video/mp4"});
       console.log(status);
       is_playing = true;
