@@ -10,7 +10,7 @@
 .u-section-1 .u-video-1 {
   height: 464px;
   width: 463px;
-  margin: 207px auto 0 76px;
+  /*margin: 207px auto 0 76px;*/
 }
 
 .u-section-1 .u-text-1 {
@@ -165,6 +165,7 @@
 
 @media (max-width: 575px) {
   .u-section-1 .u-sheet-1 {
+    width: 100%;
     min-height: 1374px;
   }
 
@@ -208,6 +209,7 @@
 
 @media (max-width: 375px) {
   .u-section-1 .u-sheet-1 {
+    width: 100%;
     min-height: 1374px;
   }
 
