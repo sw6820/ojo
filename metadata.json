@@ -1,1 +1,4 @@
-{"tfjsSpeechCommandsVersion":"0.4.0","modelName":"TMv2","timeStamp":"2020-10-10T02:02:27.785Z","wordLabels":["angry","noise","_background_noise_","hungry","purring","sick","trilling"]}
+{"tfjsSpeechCommandsVersion":"0.4.0",
+  "modelName":"TMv2",
+  "timeStamp":"2020-10-10T02:02:27.785Z",
+  "wordLabels":["angry","noise","_background_noise_","hungry","purring","sick","trilling"]}
